@@ -24,3 +24,7 @@ p {
 a {
   color: #c917c0
 }
+
+a:hover {
+  color: #ffb703
+}
