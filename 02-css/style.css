@@ -39,6 +39,16 @@ main {
   /* `main` element does not need any styles */
 }
 
+.hero {
+  height: 320px;
+  background-image: url("./images/cover-bg.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 48px;
+  color: white;
+}
+
 footer {
   background-color: #1212B2;
   padding: 32px;
