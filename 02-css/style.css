@@ -28,3 +28,37 @@ a {
 a:hover {
   color: #ffb703
 }
+
+header {
+  background-color: #1212B2;
+  padding: 24px;
+  text-align: center;
+}
+
+main {
+  /* `main` element does not need any styles */
+}
+
+footer {
+  background-color: #1212B2;
+  padding: 32px;
+}
+
+/*
+This is the "descendant combinator".
+*/
+footer p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/*
+We could also be more specific and use the "child combinator":
+footer > div > p {
+  ...
+}
+
+Read more here: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#combinators
+*/
