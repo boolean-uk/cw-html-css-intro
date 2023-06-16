@@ -49,6 +49,23 @@ main {
   color: white;
 }
 
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 24px;
+}
+
+.content > * {
+  margin-bottom: 16px;
+}
+
+.content img {
+  width: 100%;
+}
+
 footer {
   background-color: #1212B2;
   padding: 32px;
