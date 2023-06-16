@@ -66,6 +66,16 @@ main {
   width: 100%;
 }
 
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 5px;
+}
+/*
+  Detailed guide on using CSS Grid's repeat/auto-fit/minmax properties together:
+  https://codesandbox.io/s/css-grid-repeat-autofit-guide-vqz07p?file=/index.html
+*/
+
 footer {
   background-color: #1212B2;
   padding: 32px;
