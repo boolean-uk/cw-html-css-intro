@@ -39,6 +39,43 @@ main {
   /* `main` element does not need any styles */
 }
 
+.hero {
+  height: 320px;
+  background-image: url("./images/cover-bg.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 48px;
+  color: white;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 24px;
+}
+
+.content > * {
+  margin-bottom: 16px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 5px;
+}
+/*
+  Detailed guide on using CSS Grid's repeat/auto-fit/minmax properties together:
+  https://codesandbox.io/s/css-grid-repeat-autofit-guide-vqz07p?file=/index.html
+*/
+
 footer {
   background-color: #1212B2;
   padding: 32px;
